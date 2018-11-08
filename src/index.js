@@ -4,7 +4,7 @@ import SearchBar from './components/search_bar'
 import VideoList from './components/video_list'
 import YTSearch from 'youtube-api-search'
 import VideoDetail from './components/video_detail'
-const API_KEY = 'AIzaSyBR9HSi_vPDhRSqgA9R-x6VzDOa9NJAW20'
+const API_KEY = 'not for display here'
 
 //Create new component
 //Component produces jsx/html
