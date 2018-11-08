@@ -1,0 +1,12 @@
+.border {
+    border: 1px solid black;
+    width: 98vw;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
