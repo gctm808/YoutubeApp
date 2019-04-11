@@ -4,7 +4,7 @@ import SearchBar from './components/search_bar'
 import VideoList from './components/video_list'
 import YTSearch from 'youtube-api-search'
 import VideoDetail from './components/video_detail'
-const API_KEY = 'not for display here'
+const API_KEY = `${process.env.REACT_APP_API_KEY}`
 
 //Create new component
 //Component produces jsx/html

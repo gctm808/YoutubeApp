@@ -10,3 +10,8 @@ li {
 ul {
     padding: 0;
 }
+
+.searchBar {
+    margin: 10px;
+    text-align: center;
+}

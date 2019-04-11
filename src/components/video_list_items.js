@@ -9,7 +9,7 @@ const VideoListItem = ({video, onVideoSelect}) => {
         <li onClick={() => onVideoSelect(video)}>
             <div className='border'>
                 <div>
-                   <img src={imageUrl} />
+                   <img src={imageUrl} alt='videoDidntLoad'/>
                 </div>
                 <div>
                     {videoTitle}
