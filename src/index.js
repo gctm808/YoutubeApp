@@ -32,6 +32,13 @@ class App extends Component {
     render() {
         return (
             <div>
+                <div className="title">
+                    Mindless YouTube!
+                </div>
+                <div className='subtitle'>
+                    Just start typing what you're broadly interested in, and we'll pull up the top trending videos for you (ex, dogs, NBA, Fortnite)
+                </div>
+
                 <SearchBar onSearchTermChange={term => this.videoSearch(term)}/>
                 <VideoDetail video={this.state.selectedVideo} />
                 <VideoList 
